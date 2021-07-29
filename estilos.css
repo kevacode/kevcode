@@ -101,7 +101,9 @@ ul li:hover ul {
 
 .textos {
   color: seashell;
-  margin: 10%; }
+  margin: 10%;
+  background-color:#993600;
+}
 
 .tituloInicio {
   font-size: 45px;
