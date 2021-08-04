@@ -1,7 +1,7 @@
 @charset "UTF-8";
-body {
+.body {
   width: 100%;
-  background-image: url(../images/PHnaranja.jpg); }
+  background-color: black; }
 
 /*HEADER*/
 .header {
@@ -44,6 +44,7 @@ ul li:hover ul {
   background-color: #615454; }
 
 .header a {
+  /*cambie letras sin declarar una clase dentro de .a. */
   text-align: center;
   color: white;
   /*color palabras menu*/
@@ -99,9 +100,7 @@ ul li:hover ul {
 
 .textos {
   color: seashell;
-  margin: 10%; 
-  background-color: #993600;
-}
+  margin: 10%; }
 
 .tituloInicio {
   font-size: 45px;
@@ -163,11 +162,7 @@ ul li:hover ul {
 .titulos {
   font-size: 15px;
   color: white;
-  margin: 10%;
-}
-
-.titulos h5 {
+  margin: 10%; }
+  .titulos h5 {
     font-size: 15.5px;
-    color: royalblue; 
-  }
-
+    color: royalblue; }
