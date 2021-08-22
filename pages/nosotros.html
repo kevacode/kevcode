@@ -6,7 +6,7 @@
 <meta name="keywords" content=" equipo, nosotros, personas, historia, creatividad, cultura">
 
 <!--titulo-->
-<title>4 visuales | 4 cabezas- 4 piezas- </title>
+<title>Sobre mi / Sitio web en desarrollo para artes visuales </title>
 
 <!--descripcion-->
 <meta name= "description" content="Sitio web para muestra de imagenes y videos">
@@ -18,11 +18,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
-    <link rel="icon" href="../images/logos/logoD.png">
+    <link rel="icon" href="../images/logos/icono_pagina_diego_fotzi_web.png">
     <!--css-->
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,500;0,700;0,900;1,200;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
 
 <!--bootstrap online cdn-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -30,87 +31,103 @@
 </head>
 <body class="body" >
     <!--LOGO - TITULO - MENU-->
+
     <header class="header">
-        <!--Menu-->
-        
-        <nav class="headerNav">
-            <ul  > 
-                <li ><a href="../index.html" >Inicio</a>
-                    <ul>
-                        <li><a  href="servicios.html"> Ofertas</a></li>
-                        <li><a  href="nosotros.html">equipo</a></li>
-                    </ul>
-                </li> 
-                <li ><a href="nosotros.html" >Nosotros</a>
-                    <ul>
-                        <li><a   href="../servicios.html"> Ofertas</a></li>
-                        <li><a   href="../nosotros.html">equipo</a></li>
-                    </ul>
-                </li>
-                <li ><a href="porfolio.html"  >Porfolio</a>
-                    <ul>
-                        <li><a   href="../servicios.html"> Ofertas</a></li>
-                        <li><a   href="../nosotros.html">equipo</a></li>
-                    </ul>
-                </li>
-                <li ><a href="servicios.html" >Servicios</a>
-                    <ul>
-                        <li><a   href="../servicios.html"> Ofertas</a></li>
-                        <li><a   href="../nosotros.html">equipo</a></li>
-                    </ul>
-                </li>
-                <li ><a href="contacto.html" >Contacto</a>
-                    <ul>
-                        <li><a   href="../servicios.html"> Ofertas</a></li>
-                        <li><a   href="../nosotros.html">equipo</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!-- SECTION -->
-<main   class="titulos" >     
-        <section >  
-            <h3>Historia </h3>
-                <p id="textoServi" > Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dicta doloremque nobis expedita laboriosam est cumque iste quae at nostrum eum sunt,
-                    ex eaque, nesciunt quis sequi esse dolorem soluta ad.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
-                    Dolorem optio exercitationem numquam, aut doloremque eum inventore natus ratione,
-                    eveniet rem dolores earum nesciunt tenetur repellendus tempora perferendis unde voluptatibus eaque!</p>
-        </section>
-    <section  class="galeria-2" >           
-        <div id="textoInicio">    
-            <h5 >integrante 1</h5>
-                <img src="../images/usuario.png" alt="integrante"  width="100px" >
-                <p > Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magnam nam odio dolores quod ullam tempora nihil. 
-                Tempore ut id, blanditiis voluptates distinctio laboriosam amet ipsam placeat iste eos aut!</p>
-        </div> 
-        <div id="textoInicio">
-            <h5 >integrante 2</h5>
-                <img src="../images/usuario.png" alt="integrante" width="100px" >
-                <p > Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magnam nam odio dolores quod ullam tempora nihil. 
-                Tempore ut id, blanditiis voluptates distinctio laboriosam amet ipsam placeat iste eos aut! </p>
+        <div class="container logo-nav-container">
+            <a href="../index.html" class="logo">  
+                <img class="logoHeader" src="../images/logos/logo_diego_fotzi-min.png" alt="logo diego fotzi">
+            </a>
+
+            <span class="menu-icon"  >
+                    <input type="checkbox" id="btn-menu" class="menu-icon"  >
+                    <label for="btn-menu" class="lbl-menu"  >
+                    <span id="spn1"></span>
+                    <span id="spn2"></span>
+                    <span id="spn3"></span>
+            </span>
+
+            <nav class="navegacion">
+                <ul  > 
+                    <li ><a href="../index.html" >Inicio</a></li> 
+                    <li ><a href="../pages/nosotros.html" >Sobre mi</a></li>
+                    <li ><a  href="../pages/porfolio.html"  >Galeria</a></li>
+                    <li ><a  href="../pages/servicios.html" >Servicios</a></li>
+                    <li ><a  href="../pages/contacto.html" >Contacto</a></li>
+                </ul>
+            </nav>    
         </div>
-        <div id="textoInicio">
-            <h5>integrante 3</h5>
-                <img src="../images/usuario.png" alt="integrante" width="100px"  >
-                <p > Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magnam nam odio dolores quod ullam tempora nihil. 
-                Tempore ut id, blanditiis voluptates distinctio laboriosam amet ipsam placeat iste eos aut!</p><br>
-        </div>  
-    
-    </section>     
-</main>
+    </header>
+
+
+
+
+
+
+    <!-- SECTION -->
+
+        <div class="fondoTextoNosotros">
+        <h1 > Sobre mi</h1>
+        <p class="textos">
+            ¿Qué persona no ama una imagen con una composición hermosa? <br>
+    <br>Hola soy Diego y me encantan las imágenes cinematográficas, por eso con el apoyo de mi familia, me formé como diseñador de imagen y sonido en la Universidad de Buenos Aires. Me tope especialmente con la fotografía fija mientras estudiaba, aprendí un enfoque mas pequeño, fugaz, pero fuerte, y me enganche.
+En el trabajo pasé por muchos roles, y emprendí varios proyectos en conjunto y solitario, todo eso sirvió para mejorar, complementarme, como piezas de un rompecabezas.
+Quiero crear piezas que trasmitan lo que buscas y llevarlas a un nuevo nivel.  Por eso me dedico a esto, mostrar una mirada distinta, una búsqueda. El arte es mi lugar en el mundo y por eso quiero crear experiencias, desde cualquier posición y con todo tipo de personas.
+Me encanta viajar, y la diversidad que puedo encontrar.
+
+        </p> 
+        </div>
+        
+     
+
+        
+
 <!--FOOTER-->
-<footer class="footer">  
-    <section > 
-        <ol > 
-        <li id="olli" >11137789278</li>
-        <li id="olli">4visuales@gmail.com</li>
-        <li id="olli" >Buenos Aires, Argentina</li>
-        </ol>
-    </section>    
+<footer>
+    <div class="footer-container">
+    
+
+
+        <div class="footer-content-container">
+            <img class="logo-container" src="../images/logos/logoFooterBlanco.png" alt="logo diego fotzi blanco">
+        <!--   <h3 class="website-logo" > Diego Fotzi</h3> -->
+            <span class="footer-info">Mail: diegopatzzi@gmail.com</span>
+            <span class="footer-info">Celular: 1136718080</span>  
+        </div>
+        <div class="footer-menus">
+            <div class="footer-content-container">
+                <span class="menu-title">menu</span>
+                <a href="../index.html" class="menu-item-footer">Inicio</a>
+                <a href="../pages/nosotros.html" class="menu-item-footer">Sobre mi</a>
+                <a href="../pages/porfolio.html" class="menu-item-footer">Galeria</a>
+                
+            </div>
+            <div class="footer-content-container">
+                <span class="menu-title"> </span> <br>
+                <a href="../pages/servicios.html" class="menu-item-footer">Servicios</a>
+                <a href="../pages/contacto.html" class="menu-item-footer">Contacto</a>
+
+            
+            </div>
+        </div>
+        
+        <div class="footer-content-container">
+            <span class="menu-title">SEGUIME</span>
+            <div class="social-container">
+                <a href="https://es-la.facebook.com/" class="social-link"></a>
+                <a href="https://www.instagram.com/" class="social-link"></a>
+                <a href="https://www.linkedin.com/" class="social-link"></a>
+                <a href="https://www.behance.net/" class="social-link"></a>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright-container">
+        <span class="copyright">Copyright 2021, Diego Fotzi. Todos los derechos reservados.</span>
+    </div>
 </footer>
+<!-- J S -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" > </script>
+<script src="../codigomenu.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
