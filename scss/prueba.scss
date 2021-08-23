@@ -200,6 +200,7 @@ flex-wrap: wrap;
     transition: all 0.4s linear;
     border-radius: 5px;
     text-decoration: none;
+    
 }
 .navegacion ul li a:hover {
     background: rgba(210, 105, 30, 0.823);
@@ -214,6 +215,7 @@ flex-wrap: wrap;
         display: block;
         cursor: pointer;
         padding: 00.5rem 1rem;
+        
     }
     
         .navegacion {
@@ -304,7 +306,7 @@ flex-wrap: wrap;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 5em;
-    font-family: fantasy;
+    font-family:'Arial Narrow Bold', sans-serif;
     text-align: center;
     color: rgb(255, 255, 255);
     letter-spacing: 5px;
